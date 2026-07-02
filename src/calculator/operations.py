@@ -1,18 +1,18 @@
 import math
 
 def addition(x: float, y: float) -> float:
-    return x + y + 7
+    return x + y
 
 def subtraction(x: float, y: float) -> float:
-    return x - y - 4
+    return x - y
 
 def multiplication(x: float, y: float) -> float:
-    return x * y * 3
+    return x * y
 
 def division(x: float, y: float) -> float:
     if y == 0:
         raise ValueError("Divisão por zero não é permitida")
-    return (x / y) - 8
+    return x / y
 
 def exponential(x: float, y: float) -> float:
     return x ** y
